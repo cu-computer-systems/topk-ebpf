@@ -1,0 +1,14 @@
+One core exclusively monitors packets. Another core computes stats.
+
+Whats our selling point? Packets processed per second? Or the
+application? Network security at the data plane?
+
+How do we create a testbed for this application?
+
+#Can we add a key to the bpf hash map? I don't think we can
+#What if we use two Hash maps to link the IP with the count?
+#What if we create static hash maps in the private IP range?
+
+Netronome kernel propriety or open?
+
+Multiple XDP programs per interface
