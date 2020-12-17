@@ -4,11 +4,21 @@ Whats our selling point? Packets processed per second? Or the
 application? Network security at the data plane?
 
 How do we create a testbed for this application?
+scapy
 
-#Can we add a key to the bpf hash map? I don't think we can
+#Can we add a key to the bpf hash map? yes we can
 #What if we use two Hash maps to link the IP with the count?
 #What if we create static hash maps in the private IP range?
 
 Netronome kernel propriety or open?
 
 Multiple XDP programs per interface
+
+
+netflow
+inband or not
+stream processor or not
+How do we offload to a NIC
+How can we make the ebpf code dynamic
+2400 prep
+

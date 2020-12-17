@@ -171,7 +171,6 @@ int topk(struct xdp_md *ctx) {
                             ++bit0len;
                         }
                     }
-                    
                 }
 
                 for(j = 0; j < 8-bit1len; ++j){
